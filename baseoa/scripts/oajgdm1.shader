@@ -28,7 +28,7 @@ textures/q3j/grass
 	}
 }
 
-textures/xcsv/metalfloor_wall_14bglow2
+textures/oacmp_jan/metalfloor_wall_14bglow2
 {	
 	{
 		map $lightmap
@@ -36,7 +36,7 @@ textures/xcsv/metalfloor_wall_14bglow2
 		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
-		map textures/xcsv/metalfloor_wall_14bglow2.jpg
+		map textures/oacmp_jan/metalfloor_wall_14bglow2.jpg
 		blendFunc GL_ONE GL_SRC_ALPHA
 		rgbGen const ( 0.75 0.75 0.75 )
 	}
@@ -47,7 +47,7 @@ textures/xcsv/metalfloor_wall_14bglow2
 	}
 }
 
-textures/xcsv/metalfloor_wall_14
+textures/oacmp_jan/metalfloor_wall_14
 {
 	{
 		map $lightmap
@@ -55,7 +55,7 @@ textures/xcsv/metalfloor_wall_14
 		rgbGen const ( 0.02 0.02 0.05 )
 	}
 	{
-		map textures/xcsv/metalfloor_wall_14.jpg
+		map textures/oacmp_jan/metalfloor_wall_14.jpg
 		blendFunc GL_ONE GL_SRC_ALPHA		
 		rgbGen identity
 	}
@@ -66,7 +66,7 @@ textures/xcsv/metalfloor_wall_14
 	}
 }
 
-textures/xcsv/metalfloor_wall_14l
+textures/oacmp_jan/metalfloor_wall_14l
 {
 	{
 		map $lightmap
@@ -74,7 +74,7 @@ textures/xcsv/metalfloor_wall_14l
 		rgbGen const ( 0.025 0.025 0.0625 )
 	}
 	{
-		map textures/xcsv/metalfloor_wall_14.jpg
+		map textures/oacmp_jan/metalfloor_wall_14.jpg
 		blendFunc GL_ONE GL_SRC_ALPHA
 		rgbGen const ( 0.7 0.7 0.7 )
 	}	

@@ -5,7 +5,7 @@ textures/oajg_sky/ctf1
 	skyparms textures/oajg_sky/sky1 1024 - //farbox cloudheight nearbox
 	//q3map_sunExt 1 0.7 0.6 80 90 45 2 16 //red green blue intensity degrees elevation deviance samples
 	//q3map_lightmapFilterRadius 0 160 //self other
-	q3map_skyLight 180 8 //amount iterations
+	q3map_skyLight 200 8 //amount iterations
 	q3map_lightSubdivide 1024
 	q3map_lightRGB 1.0 1.0 0.9
 	q3map_forcesunlight
@@ -15,7 +15,7 @@ textures/oajg_sky/ctf1
 	surfaceparm     nomarks //no burn marks
 }
 
-textures/xcsv/metalfloor_wall_14bglow2r
+textures/oacmp_jan/metalfloor_wall_14bglow2r
 {	
 	{
 		map $lightmap
@@ -23,7 +23,7 @@ textures/xcsv/metalfloor_wall_14bglow2r
 		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
-		map textures/xcsv/metalfloor_wall_14bglow2r.jpg
+		map textures/oacmp_jan/metalfloor_wall_14bglow2r.jpg
 		blendFunc GL_ONE GL_SRC_ALPHA
 		rgbGen const ( 0.75 0.75 0.75 )
 	}
