@@ -1,0 +1,249 @@
+*** "Under Destruction" map for OpenArena ***
+---------------------------------
+- INDEX -
+
+1 - Technical details
+2 - Author's description
+3 - Notes for mappers
+4 - Runes
+5 - Offhand grapple
+6 - Railgun and BFG
+7 - Additional credits
+8 - Thanks
+9 - Links
+
+---------------------------------
+*** 1 - Technical details ***
+
+Short map name: OACMPDM10
+Map long name: Under Destruction
+Version: 1.0
+Author: Gig
+License: GPLv2 (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
+Map size: Medium
+Deathmatch spawn points: 26 (3 of them disabled during DD mode)
+Team-based spawn points: 0
+Number of players: any number. Maybe 5-8 are the best, however anything between 4 and 12 is good... and I even played it in 1vs1 and in 20! For team-based modes, I can guess that 4 or 5 players per team should be very good, but also 3 and 6 may work (in case of Double Domination mode, probably 2vs2 and 3vs3 are good).
+
+Map designed and tested with OpenArena 0.8.8 during year 2013. It has been designed for OACMP (OpenArena Community MapPack) volume 1.
+
+Supported gametypes:
+- 0 - Free For All (B)
+- 1 - Tournament (D) 
+- 3 - Team Deathmatch (B)
+- 4 - Capture the Flag (C)
+- 5 - One flag Capture (C)
+- 6 - Overload (C)
+- 7 - Harvester (C)
+- 8 - Elimination (A)
+- 9 - CTF Elimination (C)
+- 10 - Last Man Standing (A)
+- 11 - Double Domination (B)
+- 12 - Domination (B) (6 domination points)
+
+Legend:
+"(A)": These are the modes for which the map was initially thought. I really suggest you to try it in these modes. Maybe you may wish to give all players just a small number of Railgun ammo.
+"(B)": These gametypes work well with the map (it's basically a medium sized FFA map, so these gametypes fit, I suppose especially FFA and TDM). In DD mode, it's advisable to use few players (e.g. 3vs3) in this map, because the points are hard to protect.
+"(C)": These gametypes are can be played in the map, but be aware that they give an unconventional gameplay due to the fact the map is not symmetric (hence, not perfectly fair in CTF-like modes) and that I purposely did not include "team" spawn points, to give a different twist to CTF gameplay with random spawning.
+"(D)": You can try it in Tournament, too, even if the map isn't listed for that in the GUI. After making a try, I found out that it's not as bad as I thought for 1vs1 (the openess of the map makes it relatively easy to find the enemy, unless he's hiding). So you can try it, manually setting g_gametype 1, if you wish.
+
+Items:
+1x BFG (1 ammo box)
+1x Chaingun (3 ammo boxes)
+2x Grappling hook
+2x Grenade launcher (4 ammo boxes)
+2x Lighning gun (5 ammo boxes)
+1x Nailgun (4 ammo boxes)
+2x Plasma gun (5 ammo boxes)
+1x Proximity mines launcher (2 ammo boxes)
+1x Railgun (2 ammo boxes)
+3x Rocket launcher (7 ammo boxes)
+5x Shotgun (7 ammo boxes)
+
+6x machinegun bullets ammo boxes
+
+1x Portable medkit
+1x Personal teleporter, Invulnerability, Kamikaze ("teamed")
+
+2x Speed
+1x Battle suit
+1x Flight, Invisibility, Regeneration, Quad damge ("teamed")
+
+1x Ammo regen rune
+1x Doubler rune
+1x Guard rune
+1x Scout rune
+
+25x +5 armor
+3x +50 armor
+1x +100 armor
+
+28x +5 health
+6 +25 health
+3 +50 health
+1 +100 health
+
+---------------------------------------
+*** 2 - Author's description ***
+
+This is my first map actually finished and released, so please forgive me if some aspects of it may be "naive". I really put all my efforts in it.
+
+The initial idea was to create a map adapt to be used with "Elimination" mode of OpenArena (or "Clan Arena" mode of some Q3A mods like OSP and Rocket Arena), hence I designed a map with high or no ceilings... and I also used "open" areas, so the map is adapt to be travelled very quickly by rocket-jumping. The map is a relatively large area with various (more or less small) buildings in it. Each building has got various doors and windows, allowing you to use different paths to roam through the arena.
+
+The map is also enjoyable for classic Deathmatches, and I added support of all the gametypes currently available in BASEOA (OA 0.8.8). Gametypes usually played in symmetric or specular maps give a strange feel due to the map being asymmetric and unbalanced... and I purposely did not place "team" spawn points... this means that you may respawn near to your base, but also near to your opponent's base, or in the middle of the map. I hope you may like this randomness.
+
+You may try the map in any gametype with "g_elimination" feature enabled or disabled as you wish (and with elimination_grapple enabled or disabled as you prefer), with "elimination_selfdamage 0" to do not get hurt by rocket jumps. Well, may also try the map in any mode with "dmflags 1032" (if you are running at least OpenArena 0.8.8) to do not get damage from rocket jumps, but still have usual pick-ups around the arena. Of course, "dmflags 1032" works very well also with "all rockets" mode ("g_rockets 1"). You may want to restore your original dmflags value after you finish (dmflags default value is 0, in OA 0.8.8). See http://openarena.wikia.com/wiki/Dmflags.
+You can refer to OpenArena documentation on http://openarena.wikia.com for infos about gametypes and game options.
+
+The location of the map is open to interpretation: you may think about it as an archeological site, or as a place where they are building something, or as a place that has got an air strike or just as a war zone... or all of these together. I find that "Under Destruction" name, joking with the more common "Under Construction" term, fits well. My initial idea was to give an "ancient" look to the area (it features an aqueduct, a temple, two towers...), however consider it what you prefer, the important thing is that is can be used as an "Arena" for cruel deathmatches! "Team overlay" feature will show you the names I chose for various places.
+
+Short map name is OACMPDM10 due to it being created for OpenArena Community MapPack (OACMP) Volume 1... otherwise, its short name would have been "UDESTRUCTION".
+
+I know that's not exactly an "awesome work of art" technically and visually speaking, but I tried to do something "different" than usual Q3A/OA maps, and I hope I succeded in this.
+
+Due to its openess, this map can be "heavy" for your computer. You may try to improve performances enabling "simple items" option (cg_simpleitems 1 - default value is 0), or playing with fewer bots.
+
+The map can also be played under Quake III Arena game: the only thing not properly skinned there will be the offhand grapple.
+
+What else to say? Enjoy the map! Go rocket-jumping and (more important) fragging around!
+
+------------------------------------
+*** 3 - Notes for mappers ***
+
+Being the map released under GPLv2, you are free to modify it and to create your own maps from it. Thus, I will tell you these few infos:
+- I created the map mostly using Q3Radiant 202, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit.
+- You HAVE TO add "gig01" to the list of your shaderlist.txt file, otherwise the small animated brushes over jump pads would be SOLID, the sky would not illuminate the map, etc.
+- For compiling, I used "Bsp_fullvis (-light -extra)" option (Q3MAP from Q3Radiant), just tweaked to take advantage of multithreading (see http://http://openarena.wikia.com/wiki/Multithreaded_map_compiling).
+- I compiled the .AAS file with "bspc -grapplereach -optimize -bsp2aas mapname.bsp".
+- I used "BSPC version 2.1h, May  6 2001 16:15:03 by Mr Elusive" (the version that comes with GTKRadiant 1.5 package here: http://icculus.org/gtkradiant/downloads/1.5/GtkRadiant-1.5.0.msi). It looks like BSPC version 2.1h is capable of better subdiving one particularly nasty "Cluster portal" of this map, than BSPC version 2.0 that comes with Q3Radiant. I can assure you I had a long work to subdivide this map with cluster portals, trying to avoid bot-related "hitches" (bot stutters).
+
+------------------------------------
+*** 4 - Runes ***
+
+Runes are special powerups first introduced by "Q3 Team Arena" mod, and that now are a feature of OpenArena, too. Once a player gets one, it will remain active until the player dies.
+
+If you have "g_runes" option active (/g_runes 1), you will also find the four "runes" (Ammo regen, Doubler, Guard, Scout) in the map. Unlike their typical usage from Team Arena (where there is usually a separate set of them dedicated for each team), here there is only one for each kind and their pick-up is NOT team-limited. Of course, you can just set g_runes 0 if you don't like having them in a FFA map (the map works very well -maybe even better- also without them).
+
+In Openarena 0.8.8, g_runes is set to 0 by default (who knows, maybe this may change in some future OA version).
+
+Note: Runes, just like Chaingun, Proximity mines launcher and Nailgun weapons, do not appear at all when playing with most old mods designed for Q3A.
+
+For infos about runes, please read http://openarena.wikia.com/wiki/Runes
+
+------------------------------------
+*** 5 - Offhand grapple ***
+
+Short story:
+Human players can use grapples without problems, but bots currently don't use them. If you wish, you can prevent hooks from spawning.
+
+Long story:
+The map includes two "offhand grapple" items, and I compiled the .aas file with the -grapplereach option, so if you turn on the variable that enables bots to use the grapple, they will actually use it. But the grapple was an unfinished Quake3 feature, and id Software left some bugs in bots behavior with it, and currently (OA 0.8.8) OpenArena has not fixed them yet. So, if you enable BOTs grapple support variable before OA will fix it (whether it will ever be fixed or not is unclear, at the moment), you may notice some problems in their behavior (I would suggest to try with elimination_grapple option enabled, due to the fact that currently bots have a big problem if they want to go to a place they would reach with the grapple, if they do not have it yet: they would pontlessly shoot at there with standard weapons).
+
+IF YOU DO NOT WANT THE GRAPPLING HOOK AT ALL (examples: to do not have an unfair advantage against bots, which do not use it... or if you are using a MOD where the hook does not work correctly or has got its own always-equipped hook -e.g. Alternate Fire Q3 mod-... or just if you don't like players camping on walls):
+- If you are playing in Elimination or similar mode (where all pick-ups are automatically removed from the arena), just set "elimination_grapple 0" (elimination_grapple 1, instead, gives the grapple to all players).
+- If you are playing in standard modes (where pick-ups spawn normally), you can prevent just the hooks from spawning (removing all hooks from the match): you have to type "/set disable_weapon_grapplinghook 1" in console. All other items would spawn normally, except the grapples.
+*** A MAP RESTART IS REQUIRED FOR THE CHANGE TO BE EFFECTIVE. ***
+Please notice that disable_weapon_grapplinghook is NOT a "declared" variable. This means that it is NOT shown at all (and that it does not autocomplete) before YOU create it as an user-defined variable (using "set" or "seta" command). To have the hooks back, just set the variable to 0 (counting as an user-defined variable, you can also DELETE it with "/unset disable_weapon_grapplinghook"), then do a map_restart.
+Fore more infos, you can refer to http://openarena.wikia.com/wiki/Disabling_and_replacing_items
+
+Infos about offhand grapple here: http://openarena.wikia.com/wiki/Offhand_grapple
+
+------------------------------------
+*** 6 - Railgun and BFG ***
+
+The only railgun in this map spawns every 45 seconds, and there are two slugs ammo boxes only. There is only one BFG (that spawns every 60 seconds), and only one ammo box for it. However, if you feel they are overpowered in this "open" map, you can disable them:
+- If you are playing in Elimination or similar mode, you can just tweak their starting ammo (by modifying "/elimination_railgun" and "/elimination_bfg" variables values - In OA 0.8.8, their default values are 20 and 0, respectively). You may for example give each player just two or three shots for such weapons.
+- If you are playing in standard modes, you can use "/set disable_weapon_railgun 1" or "/set disable_weapon_bfg 1" to prevent them from spawning in the game. If you remove the weapons, you may also remove their ammo boxes, with "/set disable_ammo_slugs 1" and "/set disable_ammo_bfg 1". Then do a map_restart. They work as "user-defined" variables: see the above section about "Offhand grapple" for more infos.
+Fore more infos, you can refer to http://openarena.wikia.com/wiki/Disabling_and_replacing_items
+
+------------------------------------
+*** 7 - Additional credits ***
+
+OpenArena is by The OpenArena Team and licensed under GPLv2.
+
+Custom textures used in "Under Destruction" map are released under GPLv2 license. I realized most them with Adobe Photoshop, and a few of them with GIMP.
+You can find these images under the "textures/gig01" folder. Some of them are elaborations based upon existing OpenArena 0.8.x texture files (extracted from OA 0.8.x PK3 files).
+
+bricks1 - Customized by Gig, starting from existing OpenArena "streetbricks14" file
+dimclouds_gr - Customized by Gig, starting from existing OpenArena "dimclouds" file
+dimclouds_light - Customized by Gig, starting from existing OpenArena "dimclouds" file
+dirt_dark - Customized by Gig, starting from existing OpenArena "dirt" file
+dirt_grass - Customized by Gig, starting from existing OpenArena "dirt" and "pjrock16" files
+dots1 - Created by Gig
+drops1 - Created by Gig
+drops2 - Created by Gig
+gig_accel1 - Customized by Gig, starting from existing OpenArena "blocks11bbroke" file
+gig_accel1_b - Created by Gig
+gig_accel1_c - Created by Gig
+gig_bounce01 - Customized by Gig, starting from existing OpenArena "bouncepad01_block17" file
+gig_bounce01_trans - Created by Gig (*)
+gig_bounce01fx - Customized by Gig, starting from existing OpenArena "jcb2" file
+gig_circglow01 - Customized by Gig, starting from existing OpenArena "circ4glow" file
+gig_circglow01_trans - Customized by Gig, starting from existing OpenArena "circ4glow" file (*)
+gig_stripes1 - Created by Gig (taking the idea from a GPL'd moving stars shader by Akom74 he used in his oa_akomdm4 map... well the result is different)
+marble_column1 - Created by Gig
+marble_floor1 - Created by Gig
+marble_floor2 - Created by Gig
+marble_floor2_a - Created by Gig
+marble_floor2_arrow - Created by Gig
+marble_floor2_b - Created by Gig
+marble_floor2_oa - Created by Gig, plus incorporating existing OpenArena logo
+marble_floor3 - Created by Gig
+musk_wall1 - Customized by Gig, starting from existing OpenArena "q1metal7_97" and "pjrock16" files
+pebbles_grass1 - Created by Gig
+pebbles_grass2 - Created by Gig
+pebbles1 - Created by Gig
+pebbles2 - Created by Gig
+pjrock16_alt - Customized by Gig, starting from existing OpenArena "pjrock16" and "dirt" files
+pjrock17_alt - Customized by Gig, starting from existing OpenArena "pjrock17" and "dirt" files
+pjrock21_alt - Customized by Gig, starting from existing OpenArena "pjrock21" and "dirt" files
+shingles1 - Customized by Gig, starting from existing OpenArena "slateroofc" file
+tile_floor1 - Created by Gig
+tile_floor2 - Created by Gig
+tile_floor3 - Customized by Gig, starting from existing OpenArena "sfloor1_2" file
+water1a_blue - Customized by gig, starting from existing OpenArena "pool3d_5" file
+water1a_blue_arrow - Customized by gig, starting from existing OpenArena "pool3d_5" file
+water1b_blue - Customized by gig, starting from existing OpenArena "pool3d_6" file
+water1c_blue - Customized by gig, starting from existing OpenArena "pool3d_5e" file
+woodceiling_bis - Customized by Gig, starting from existing OpenArena "woodceiling1a" file
+woodybox1 - Created by Gig
+woodybox2 - Created by Gig
+
+More, various custom shaders are included in gig01.shader, all according to GPLv2 license. They are mostly Gig's customized versions of existing OpenArena shaders (taken from oasky.shader, liquid_water.shader, clown.shader, oasfx.shader, am_cosmoflash files from OA 0.8.1+0.8.5+0.8.8 pk3 packages).
+
+Note: the two images marked with "(*)" above have not actually been used in the map, but they are part of "gig_bounce01_S_T_Blocks9" shader, that I included in gig01.shader file anyway, thinking that someone may find it useful and use it in his own maps. My Photoshop program did not preserve alpha channel (background transparency) infos while exporting to .tga format, so I had to export those two images to .png format first, then use GIMP to convert from .png to .tga. In some other image files, instead, I used black color for simulating transparency using shader blending functions; I also created a few images directly with GIMP, hence their tranparency is preserved when exported to .tga.
+
+Sounds under sound/gig01 path:
+waterfall_plus2db_22k.wav - Customized by Gig, it's OA 0.8.x sound/world/waterfall.wav, just with a bit louder volume (2 db more). It's licensed under GPLv2.
+
+fountain2_vol2x_44k.wav - Customized by Gig, it's fountain2.wav sound (a Public Domain sound Fromhell posted on OACMP thread on OA forums here: http://openarena.ws/board/index.php?topic=4679.msg48161#msg48161 - Fromhell did it by cutting a PD fountain sound published by Aldor on http://www.pdsounds.org), but with its volume doubled. It is licensed under both Public Domain and GPLv2.
+
+Considering all this stuff (including the map itself, of course) is available under the terms of GPLv2 license, it may be re-used and/or adapted for your own GPLv2 projects. If you need to mention the author, you may mention "Gig" or simply the "OpenArena Team", as you prefer.
+
+------------------------
+*** 8 - Thanks ***
+
+Thanks to Dancar for suggesting the "Under Destruction" name, and thanks to all the guys on the OpenArena forums (they are too many to name them all, and I don't want to risk to forget someone! Just a few examples: thanks to Akom for suggesting a way to fix a small illumination problem; thanks to Jan Groothuijse for the idea of curved walls; thanks to Neon_Knight for the idea of OACMP -OpenArena Community MapPack-, thanks to Pelya, Moixie, etc. etc. for map feedback... etc. etc. Yes, there are too many people to name them all!).
+
+Thanks to Fromhell (OA project leader, 3D artist, etc.), Sago007 (main gamecode programmer) and all the "OpenArena Team" for the game itself. Thanks to id Software for creating Quake III Arena and for releasing its source code under GPLv2, allowing the creation of ioquake3 (thanks to ioquake3 staff, too) and OpenArena.
+
+And thanks to YOU for reading all this stuff! :-)
+
+----------------------
+*** 9 - Links ***
+
+OpenArena Official site: http://www.openarena.ws
+Openarena Official forum: http://www.openarena.ws/board
+OpenArena Official wiki: http://openarena.wikia.com
+OpenArena Gamer's manual: http://openarena.wikia.com/wiki/Manual
+OpenArena Community Mappack: http://openarena.wikia.com/wiki/OpenArena_Community_Mappack
+
+GPL license: http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------
+That's all, folks!
+
+- GIG -
+
+email: thegig@supereva.it
+------------------------

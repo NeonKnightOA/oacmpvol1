@@ -1,0 +1,1 @@
+The maps are located inside of the z_oacmp-volume1.pk3 file.

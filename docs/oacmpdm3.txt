@@ -1,0 +1,71 @@
+Release date: January 15th. 2014.
+OpenArena DM/Tourney level.
+
+============================================================
+Title:            Danger Arena
+Map filename:     oacmpdm3.bsp
+Author:           Cosimo "Akom74" Pederiva & Luciano "Neon_Knight" Balducchi
+Email address:    openarena.arg@gmail.com (Neon_Knight)
+URL:              http://akom74.forumattivo.com/forum.htm (Akom74)
+Description:      A map set in an egyptian-themed temple.
+
+============================================================
+Play information
+
+Deathmatch:       yes
+Team deathmatch:  yes
+Tournament:       yes
+Capture The Flag: no
+One Flag CTF:     yes
+Overload:         no
+Harvester:        yes
+Elimination:      yes
+CTF Elimination:  no
+Last Man Standing:yes
+Double Domination:yes
+Domination:       no
+Bot File (aas):   yes
+other:            no
+new sounds:       no
+new graphics:     yes
+new music:        no
+
+How to play:      Open the map from the Skirmish or Create Server menu.
+
+                  Alternatively, load the console and write
+                  /map oacmpdm3
+============================================================
+Construction
+
+base:           
+editor:         Q3Radiant by Id Software - NetRadiant 1.6.0 by Alientrap
+other progs:    
+know bugs:      none known
+build time:     about a year and a month
+
+============================================================
+Thanks to ...
+
+Everyone who supported us, and those who gave us feedback at the OA forums
+(http://www.openarena.ws/board)
+
+============================================================
+Distribution / Copyright / Permissions 
+
+oacmpdm3 - Egyptian Trouble - Part of the OpenArena Community Mappack.
+Copyright (C) 2014 Cosimo "Akom74" Pederiva and Luciano "Neon_Knight" Balducchi
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+============================================================

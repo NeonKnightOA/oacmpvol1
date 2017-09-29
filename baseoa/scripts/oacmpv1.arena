@@ -1,0 +1,125 @@
+//DM01
+{
+map		"oacmpdm1"
+longname	"The Crypt"
+type		"ffa lms tourney team elimination"
+author		"Akom74"
+bots		"ghost assassin"
+fraglimit	"15"
+}
+//DM02
+{
+map		"oacmpdm2"
+longname	"Danger Arena"
+type		"ffa lms tourney"
+author		"Akom74"
+bots		"s_marine"
+fraglimit	"15"
+}
+//DM03
+{
+map		"oacmpdm3"
+longname	"Egyptian Trouble"
+type		"ffa lms tourney team elimination oneflag harvester dd"
+author		"Akom74"
+bots		"broadklin morgan"
+fraglimit	"15"
+}
+//DM04
+{
+map		"oacmpdm4"
+longname	"3013 Xan's Space"
+type		"ffa lms tourney"
+author		"Akom74"
+bots		"grism andriy"
+fraglimit	"20"
+}
+{
+//DM05
+{
+map		"oacmpdm5"
+longname	"The other side"
+type		"ffa lms tourney team elimination dd"
+author		"Jan Groothuijse"
+bots		"ayumi jenna"
+fraglimit	"15"
+}
+//DM06
+{
+map		"oacmpdm6"
+longname	"Aimless fury"
+type		"ffa lms tourney team elimination ctf ctfelimination dd oneflag harvester overload"
+author		"Jan Groothuijse"
+bots		"tony penguin"
+fraglimit	"15"
+}
+//DM07
+{
+map		"oacmpdm7"
+longname	"Plan 9 From outer Space"
+type		"ffa lms tourney"
+author		"Moixie"
+bots		"sarge grunt"
+fraglimit	"20"
+}
+//DM08
+{
+map		"oacmpdm8"
+longname	"Subdivision"
+type		"ffa lms tourney team elimination"
+author		"Jan Groothuijse"
+bots		"ayumi jenna tony penguin"
+fraglimit	"20"
+}
+//DM09
+{
+map		"oacmpdm9"
+longname	"The Sanctuary"
+type		"ffa lms tourney team elimination"
+author		"Akom74"
+bots		"merman"
+fraglimit	"15"
+}
+//DM10
+{
+map		"oacmpdm10"
+longname	"Under destruction"
+type		"ffa lms team elimination ctf ctfelimination dd dom oneflag harvester overload"
+author		"Gig"
+bots		"ghost broadklin morgan assassin"
+fraglimit	"20"
+}
+//CTF01
+{
+map		"oacmpctf1"
+longname	"Turtles Forever"
+type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
+author		"Moixie"
+bots		"sergei kyonshi grism sergei major"
+capturelimit	"7"
+fraglimit	"20"
+timelimit	"15"
+}
+//CTF02
+{
+map		"oacmpctf2"
+longname	"Uphill battle"
+type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
+author		"Jan Groothuijse"
+bots		"sergei kyonshi grism sergei major"
+capturelimit	"7"
+fraglimit	"20"
+timelimit	"15"
+}
+//CTF03
+{
+map		"oacmpctf3"
+longname	"Facing Giants"
+type		"ctf elimination ctfelimination dd oneflag harvester overload dom"
+author		"Akom74"
+bots		"sergei kyonshi grism sergei major"
+capturelimit	"7"
+fraglimit	"20"
+timelimit	"15"
+}
+

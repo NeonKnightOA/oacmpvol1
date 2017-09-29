@@ -1,0 +1,151 @@
+//For limit reasons, all CTF maps will be included here.
+{
+map		"am_lavactf"
+longname	"Lava Arena (CTF)"
+type		"ctf ctfelimination oneflag harvester overload elimination dd"
+}
+{
+map		"am_lavactfxl"
+longname	"Lava Arena (CTF XL)"
+type		"ctf ctfelimination oneflag harvester overload elimination dd"
+}
+{
+map		"am_mckinleyish2"
+longname	"McKinleyish Retribution"
+type		"ctf ctfelimination oneflag harvester overload elimination dd"
+}
+{
+map		"am_thornish"
+longname	"Thornish Revenge"
+type		"ctf ctfelimination oneflag harvester overload elimination dd"
+}
+{
+map		"cbctf1"
+longname	"Capture The Space"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"ctf_compromise"
+longname	"Foul Compromise"
+type		"ctf oneflag elimination ctfelimination dd dom"
+}
+{
+map		"ctf_gate1"
+longname	"Outer Gates"
+type		"ctf elimination ctfelimination dd dom"
+}
+{
+map		"ctf_inyard"
+longname	"Inner Yard"
+type		"ctf oneflag elimination ctfelimination dd dom"
+}
+{
+map		"czest2ctf"
+longname	"The Bridge of Despair"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"czest3ctf"
+longname	"Holy Wars"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"delta"
+longname	"Mission Over Mars"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"hydronex2"
+longname	"Hydrocapture 2.0"
+type		"ctf oneflag harvester overload elimination ctfelimination dd dom"
+}
+{
+map		"mlctf1beta"
+longname	"Encephalomalacia"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_bases3"
+longname	"Some Bases"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_bases3plus3"
+longname	"Some Bases (Improved)"
+type		"ctf oneflag harvester overload elimination ctfelimination dd dom"
+}
+{
+map		"oa_bases3p3ta"
+longname	"Some Bases (Improved TA)"
+type		"ctf oneflag harvester overload elimination ctfelimination dd dom"
+}
+{
+map		"oa_bases7"
+longname	"Some Awful Bases"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_ctf2"
+longname	"OA_CTF2"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_ctf4ish"
+longname	"Free Space"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_reptctf11"
+longname	"Colliding in the Factory"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oacmpctf1"
+longname	"Turtles Forever"
+type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
+}
+{
+map		"oacmpctf2"
+longname	"Uphill battle"
+type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
+}
+{
+map		"oacmpctf3"
+longname	"Facing Giants"
+type		"ctf elimination ctfelimination dd oneflag harvester overload dom"
+}
+{
+map		"oasago1"
+longname	"Sago's Inner Castle"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oasago2"
+longname	"Sago's Outer Castle"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_spirit3"
+longname	"Where Fears Collide"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"oa_thor"
+longname	"Thor's Valhalla"
+type		"ctf oneflag harvester overload elimination ctfelimination dd dom"
+}
+{
+map		"ps37ctf2"
+longname	"Obey 37 2.0"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"ps9ctf"
+longname	"Obey 9"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
+{
+map		"pul1ctf"
+longname	"Der Koberwascher"
+type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}

@@ -1,0 +1,41 @@
+=====================
+oajgdm2 - Aimless fury
+=====================
+
+Title:			Aimless fury
+Date:			13-02-2013
+Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
+File:			oajgdm2.pk3
+Type:			Deathmatch: FFA, Tourney, Team, Elimination, Last Man Standing
+Players:		2 - 8
+
+Description:	
+	Three level triple atrium.
+
+Tools:
+	NetRadiant 1.5.0n-git806e3fe
+	using (among others) Q3Map2 options: -meta, -vis, -light fast -filter -super 2
+	
+	bspc	(to generate aas file)
+	using "~/bspc -bsp2aas oajgdm2beta3.bsp -optimize -forcesidesvisible"
+	
+	The GIMP	
+	
+
+License:
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+
