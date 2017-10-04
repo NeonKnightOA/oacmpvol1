@@ -111,11 +111,11 @@ What else to say? Enjoy the map! Go rocket-jumping and (more important) fragging
 *** 3 - Notes for mappers ***
 
 Being the map released under GPLv2, you are free to modify it and to create your own maps from it. Thus, I will tell you these few infos:
-- I created the map mostly using Q3Radiant 202, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit.
+- I created the map mostly using Q3Radiant 202, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit. ID Software released Q3Radiant source code under GPL license, you can find it here: https://github.com/id-Software/Quake-III-Arena
 - You HAVE TO add "gig01" to the list of your shaderlist.txt file, otherwise the small animated brushes over jump pads would be SOLID, the sky would not illuminate the map, etc.
 - For compiling, I used "Bsp_fullvis (-light -extra)" option (Q3MAP from Q3Radiant), just tweaked to take advantage of multithreading (see http://http://openarena.wikia.com/wiki/Multithreaded_map_compiling).
 - I compiled the .AAS file with "bspc -grapplereach -optimize -bsp2aas mapname.bsp".
-- I used "BSPC version 2.1h, May  6 2001 16:15:03 by Mr Elusive" (the version that comes with GTKRadiant 1.5 package here: http://icculus.org/gtkradiant/downloads/1.5/GtkRadiant-1.5.0.msi). It looks like BSPC version 2.1h is capable of better subdiving one particularly nasty "Cluster portal" of this map, than BSPC version 2.0 that comes with Q3Radiant. I can assure you I had a long work to subdivide this map with cluster portals, trying to avoid bot-related "hitches" (bot stutters).
+- I used "BSPC version 2.1h, May  6 2001 16:15:03 by Mr Elusive" (the version which comes with GTKRadiant 1.5 package here: http://icculus.org/gtkradiant/downloads/1.5/GtkRadiant-1.5.0.msi). It looks like BSPC version 2.1h is capable of better subdiving one particularly nasty "Cluster portal" of this map, than BSPC version 2.0 that comes with Q3Radiant. I can assure you I had a long work to subdivide this map with cluster portals, trying to avoid bot-related "hitches" (bot stutters).
 
 ------------------------------------
 *** 4 - Runes ***
@@ -236,7 +236,7 @@ OpenArena Official site: http://www.openarena.ws
 Openarena Official forum: http://www.openarena.ws/board
 OpenArena Official wiki: http://openarena.wikia.com
 OpenArena Gamer's manual: http://openarena.wikia.com/wiki/Manual
-OpenArena Community Mappack: http://openarena.wikia.com/wiki/OpenArena_Community_Mappack
+OpenArena Community Mappack: http://openarena.wikia.com/wiki/OACMP
 
 GPL license: http://www.gnu.org/licenses/gpl-2.0.html
 
