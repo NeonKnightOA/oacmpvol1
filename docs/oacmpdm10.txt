@@ -17,6 +17,7 @@
 
 Short map name: OACMPDM10
 Map long name: Under Destruction
+Filename: oacmpdm10.bsp
 Version: 1.0
 Author: Gig
 License: GPLv2 (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
