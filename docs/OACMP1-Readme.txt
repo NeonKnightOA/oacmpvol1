@@ -59,6 +59,8 @@ We hope you enjoy this pack as much as we enjoyed creating it.
 * oacmpctf3 - Facing Giants
   * Authors: Akom74, Neon_Knight
   * Gametypes: CTF, One Flag CTF, Harvester, Overload, Elimination, CTF Elimination, Double DOM, Domination.
+  
+More infos about each map are contained in individual .txt files. oacmpdm10 author recommends reading the .txt about that map.
 
 == CREDITS ==
 Neon_Knight - OACMP coordination, bugfixing.
