@@ -15,4 +15,4 @@ For more infos: http://openarena.wikia.com/wiki/G_autonextmap
 "Auto change map" is a nice feature which allows the game to randomly choose the next map to be played,
 picking it from pre-set map lists (mappools) for each gametype.
 
-NOTE: The commands to enable and disable the mappools have been designed around OA 0.8.8 "g_mappools" variable usage. There is the "risk" that future OA versions may rework the feature aiming for a more efficient way (using a configuration file instead of a variable to manage the list of mappool files), breking these commands in the process, but there is nothing decided at the moment of this writing.
+NOTE: The commands to enable and disable the mappools have been designed around OA 0.8.8 "g_mappools" variable usage. There is the "risk" that future OA versions may rework the feature aiming for a more efficient way (using a configuration file instead of a variable to manage the list of mappool files), breaking these commands in the process, but there is nothing decided at the moment of this writing.
