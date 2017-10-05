@@ -1,23 +1,23 @@
 =====================
-oajgdm1 - The Other Side
+oacmpdm5 - The Other Side
 =====================
 
 Title:			The other side
+Map filename:		oacmpdm5.pk3
 Date:			04-02-2013
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
-File:			oajgdm1.pk3
-Type:			Deathmatch: FFA, Tourney, TDM
+Gametypes:		FFA, Tourney, TDM, Elimination, LMS, DDom
 Players:		2 - 6
 
 Description:	
-	Open 'outdoor' map. Designed so that there would be room to fight. Redundant teleporters where added to make chases more interessting.
+	Open 'outdoor' map. Designed so that there would be room to fight. Redundant teleporters were added to make chases more interesting.
 
 Tools:
 	NetRadiant 1.5.0n-git806e3fe
 	using (among others) Q3Map2 options: -meta -vis -bound 8
 	
 	bspc	(to generate aas file)
-	using "~/bspc -bsp2aas oajgdm1.bsp -optimize -forcesidesvisible"
+	using "~/bspc -bsp2aas oacmpdm5.bsp -optimize -forcesidesvisible"
 	
 	The GIMP	
 	

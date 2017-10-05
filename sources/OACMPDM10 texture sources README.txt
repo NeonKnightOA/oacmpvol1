@@ -1,4 +1,4 @@
-*** Texture sources for Under Destruction map ***
+*** Texture sources for "Under Destruction" map (OACMPDM10) ***
 
 "Under Destruction" map for OpenArena, created by Gig during year 2013 and released under GPLv2+ license, uses some custom textures.
 
@@ -6,7 +6,7 @@ Here you can find the source .psd (Photoshop) and .xcf (GIMP) image files, as re
 
 Sound/fountain2.wav file is licensed under both GPLv2+ and Public Domain.
 
-For more infos about the map and ABOUT THESE FILES (e.g. where they do come from), please refer to the readme file of "Under destruction" map itself, which is more extensive.
+For more infos about the map and ABOUT THESE FILES (e.g. where they do come from), please refer to the readme file of OACMPDM10 map itself, which is more extensive.
 
 
 Links:

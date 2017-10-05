@@ -1,26 +1,14 @@
 =====================
-oacmpdm6 - Aimless fury
+oacmpdm8 - Subdivision
 =====================
 
-Title:			Aimless fury
-Date:			13-02-2013
+Title:			Subdivision
+Map filename:		oacmpdm8.bsp
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
-File:			oacmpdm6.pk3
-Gametypes:		FFA, Tourney, Team, Elimination, Last Man Standing, CTF, 1Flag, Harvester, Overload, ECTF, DDom
-Players:		2 - 8
+Gametypes:		FFA, TDM, Tourney, Elimination, LMS
+Players:		4 - 6
+Description:		An open, "U" shaped DM/Elimination map.
 
-Description:	
-	Three level triple atrium.
-
-Tools:
-	NetRadiant 1.5.0n-git806e3fe
-	using (among others) Q3Map2 options: -meta, -vis, -light fast -filter -super 2
-	
-	bspc	(to generate aas file)
-	using "~/bspc -bsp2aas oacmpdm6.bsp -optimize -forcesidesvisible"
-	
-	The GIMP	
-	
 
 License:
 This program is free software; you can redistribute it and/or

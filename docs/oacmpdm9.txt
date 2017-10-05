@@ -7,7 +7,7 @@ Map filename:     oacmpdm9.bsp
 Author:           Cosimo "Akom74" Pederiva & Luciano "Neon_Knight" Balducchi
 Email address:    openarena.arg@gmail.com (Neon_Knight)
 URL:              http://akom74.forumattivo.com/forum.htm (Akom74)
-Description:      A temple map based on Unreal Tournament III's DM-Sanctuary.
+Description:      A temple map inspired by Unreal Tournament III's DM-Sanctuary.
 
 ============================================================
 Play information

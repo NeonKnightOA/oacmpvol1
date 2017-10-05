@@ -1,1 +1,1 @@
-The maps are located inside of the z_oacmp-volume1.pk3 file.
+Map sources are located inside of the z_oacmp-volume1-v4.pk3 file.

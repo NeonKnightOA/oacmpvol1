@@ -3,11 +3,12 @@ oajgctf1 - Uphill Battle
 =====================
 
 Title:			Uphill Battle
+Map filename:		oacmpctf1.bsp
 Date:			23-02-2013
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
-File:			oajgctf1.pk3
-Type:			Deathmatch: CTF
+Gametypes:		TDM, CTF, 1Flag, Harvester, Overload, Elimination, ECTF, DoubleDom, Dom
 Players:		4 - 8
+Description:		A "green" CTF map
 
 
 Tools:

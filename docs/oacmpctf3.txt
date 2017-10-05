@@ -1,12 +1,12 @@
 Release date: January 15th. 2014.
-OpenArena DM/Tourney level.
+OpenArena CTF level.
 
 ============================================================
-Title:            3013 Xan's Space
-Map filename:     oacmpdm4.bsp
+Title:            Facing Giants
+Map filename:     oacmpctf3.bsp
 Author:           Cosimo "Akom74" Pederiva
 URL:              http://akom74.forumattivo.com/forum.htm (Akom74)
-Description:      A tower-based map based on Unreal series' Facing Worlds levels.
+Description:      A tower-based map inspired by Unreal series' "Facing Worlds" levels.
 
 ============================================================
 Play information
