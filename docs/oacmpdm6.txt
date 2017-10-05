@@ -5,7 +5,7 @@ oacmpdm6 - Aimless fury
 Title:			Aimless fury
 Date:			13-02-2013
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
-File:			oacmpdm6.pk3
+File:			oacmpdm6.bsp
 Gametypes:		FFA, Tourney, Team, Elimination, Last Man Standing, CTF, 1Flag, Harvester, Overload, ECTF, DDom
 Players:		2 - 8
 
