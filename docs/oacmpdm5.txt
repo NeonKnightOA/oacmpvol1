@@ -3,7 +3,7 @@ oacmpdm5 - The Other Side
 =====================
 
 Title:			The other side
-Map filename:		oacmpdm5.pk3
+Map filename:		oacmpdm5.bsp
 Date:			04-02-2013
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
 Gametypes:		FFA, Tourney, TDM, Elimination, LMS, DDom
