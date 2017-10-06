@@ -14,7 +14,7 @@ To disable: /exec oacmp1_disable
   Important note about "oacmp1_disable" script: it may not work correctly in case you haven't loaded any map yet.
   If needed, just load a map and then exec it again.
 
-IMPORTANT: The feature is actually active when you have g_autonextmap set to 1.
+IMPORTANT: The feature is actually active when you have g_autonextmap variable set to 1.
 These scripts *DO NOT* turn it on or off, they just "prepare" for it.
 
 NOTE: The commands to enable and disable the mappools have been designed around OA 0.8.8 "g_mappools" variable usage.
