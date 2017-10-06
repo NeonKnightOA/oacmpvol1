@@ -5,7 +5,7 @@ textures/akom_liquids/slime9
 		surfaceparm trans
 		surfaceparm noimpact
 		surfaceparm nonsolid
-		surfaceparm slime
+		surfaceparm slimeqer_trans 0.5
 		surfaceparm nolightmap
 
 		q3map_surfacelight 200
@@ -29,7 +29,7 @@ textures/akom_liquids/slime_fall
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm noimpact
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_surfacelight 50
 	cull disable
