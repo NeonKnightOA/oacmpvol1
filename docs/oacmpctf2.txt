@@ -3,7 +3,7 @@ oacmpctf2 - Turtles Forever
 =====================
 
 Title:			Turtles Forever
-Map filename:		oacmpctf2
+Map filename:		oacmpctf2.bsp
 Author:			"Moixie"
 Gametypes:		TDM, CTF, 1Flag, Harvester, Overload, Elimination, ECTF, DoubleDom, Dom
 Players:		4 - 6
