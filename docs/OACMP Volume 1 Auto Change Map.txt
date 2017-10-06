@@ -1,5 +1,11 @@
-OACMP Volume 1 Mappools
-You can use "oacmp1_enable" and "oacmp1_disable" scripts to enable and disable OACMP Volume 1 maps for "auto change map" feature (g_autonextmap).
+== OACMP Volume 1 Mappools ==
+
+"Auto change map" is a nice feature which allows the game to randomly choose the next map to be played,
+picking it from pre-set map lists (mappools) for each gametype.
+
+For more infos: http://openarena.wikia.com/wiki/G_autonextmap
+
+You can use "oacmp1_enable" and "oacmp1_disable" scripts to set and unset OACMP Volume 1 maps for "auto change map" feature (g_autonextmap).
 
 To enable: /exec oacmp1_enable
   (this sets g_mappools variable to use OACMP volume 1 pools)
@@ -8,11 +14,10 @@ To disable: /exec oacmp1_disable
   Important note about "oacmp1_disable" script: it may not work correctly in case you haven't loaded any map yet.
   If needed, just load a map and then exec it again.
 
-The feature works only when you have g_autonextmap set to 1. These scripts do not turn it on or off.
+IMPORTANT: The feature is actually active when you have g_autonextmap variable set to 1, which you have to do yourself.
+These scripts *DO NOT* turn it on or off, they just "prepare" for it.
 
-For more infos: http://openarena.wikia.com/wiki/G_autonextmap
-
-"Auto change map" is a nice feature which allows the game to randomly choose the next map to be played,
-picking it from pre-set map lists (mappools) for each gametype.
-
-NOTE: The commands to enable and disable the mappools have been designed around OA 0.8.8 "g_mappools" variable usage. There is the "risk" that future OA versions may rework the feature aiming for a more efficient way (using a configuration file instead of a variable to manage the list of mappool files), breaking these commands in the process, but there is nothing decided at the moment of this writing.
+NOTE: The commands to enable and disable the mappools have been designed around OA 0.8.8 "g_mappools" variable usage.
+There is the "risk" that future OA versions may rework the feature aiming for a more efficient way (using a configuration file
+instead of a variable to manage the list of mappool files), breaking these commands in the process,
+but there is nothing decided at the moment of this writing.

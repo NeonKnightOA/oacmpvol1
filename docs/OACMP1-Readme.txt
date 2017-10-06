@@ -74,11 +74,14 @@ The above and everyone else who cared at the OA forums - Testing.
 Yves "evillair" Allaire - evil* textures. [nicked from Nexuiz]
 Simon "sock" O'Callaghan - egyptsoc* textures. [nicked from Nexuiz, permission is in the "docs" folder]
 
-==USAGE==
+== USAGE ==
 Just place "z_oacmp_volume1_v4.pk3" into "baseoa" folder under your OpenArena folder.
 Then start OpenArena, go to "SINGLEPLAYER -> SKIRMISH" or "MULTIPLAYER -> CREATE" menu, and select an OACMP map.
 
-==OACMP1 "SINGLE PLAYER MOD"==
+== MAPPOOLS ==
+We included "mappools" configuration files for OA 0.8.8 "auto change map/auto next map" feature. Please refer to "OACMP Volume 1 Auto Change Map.txt" for more info.
+
+== OACMP1 "SINGLE PLAYER MOD" ==
 Zip package named "oacmp_volume1_v4.zip" contains optional "oacmp1-mod" folder.
 "OpenArena Community Mappack Vol 1 Campaign" is an extremely simple "mod" which just mixes OACMP Volume 1 maps and standard OA 0.8.8 maps for Single Player Deathmatch "tiers".
 Its installation/usage is totally OPTIONAL: you don't need "oacmp1-mod" folder in order to play OACMP maps (while you need OACMP Volume 1 to play the "mod").
