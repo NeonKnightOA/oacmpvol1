@@ -651,7 +651,7 @@ textures/gig01/water1_flow
 	q3map_surfacelight 35
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
@@ -698,7 +698,7 @@ textures/gig01/water1bis_flow
 	q3map_surfacelight 145
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	cull disable
 	deformVertexes wave 32 sin .25 .5 0 1.9
@@ -744,7 +744,7 @@ textures/gig01/water1bis_flow_nodeform
 	q3map_surfacelight 145
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
@@ -786,7 +786,7 @@ textures/gig01/water1_flow_nolight
 	qer_trans 0.6 //Transparency IN EDITOR
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
@@ -831,7 +831,7 @@ textures/gig01/water1_calm
 	q3map_surfacelight 35
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
@@ -875,7 +875,7 @@ textures/gig01/water1_calm_nolight
 	qer_trans 0.6 //Transparency IN EDITOR
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
@@ -920,7 +920,7 @@ textures/gig01/water1_calm_nodeform
 	q3map_surfacelight 35
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
