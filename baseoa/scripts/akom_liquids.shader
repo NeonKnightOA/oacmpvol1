@@ -1,13 +1,14 @@
 textures/akom_liquids/slime9
 {
-    qer_editorimage textures/akom_liquids/slime9.tga
+    		qer_editorimage textures/akom_liquids/slime9.tga
+    		qer_nocarve
+		qer_trans 0.5
 		q3map_globaltexture
 		surfaceparm trans
 		surfaceparm noimpact
 		surfaceparm nonsolid
-		surfaceparm slime	qer_nocarveqer_trans 0.5
+		surfaceparm slime
 		surfaceparm nolightmap
-
 		q3map_surfacelight 200
 		tessSize 32
 		cull disable
@@ -24,12 +25,14 @@ textures/akom_liquids/slime_fall
 {
 	// Changed By Akom74 April 4, 2013
 	qer_editorimage textures/akom_liquids/slime_fall.tga
+	qer_nocarve
+	qer_trans 0.5
 	q3map_globaltexture
 	q3map_lightsubdivide 32
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm noimpact
-	surfaceparm lava	qer_nocarveqer_trans 0.5
+	surfaceparm lava
 	surfaceparm nolightmap
 	q3map_surfacelight 50
 	cull disable
