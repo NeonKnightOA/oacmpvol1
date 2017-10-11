@@ -5,7 +5,7 @@ picking it from pre-set map lists (mappools) for each gametype.
 
 For more infos: http://openarena.wikia.com/wiki/G_autonextmap
 
-You can use "oacmp1_enable" and "oacmp1_disable" scripts to set and unset OACMP Volume 1 maps for "auto change map" feature (g_autonextmap).
+You can use "oacmp1_set_mappools" and "oacmp1_reset_mappools" scripts to set and unset OACMP Volume 1 maps for "auto change map" feature (g_autonextmap).
 
 To enable: /exec oacmp1_set_mappools
   (this sets g_mappools variable to use OACMP volume 1 pools)
