@@ -92,9 +92,9 @@ fraglimit	"20"
 //CTF01
 {
 map		"oacmpctf1"
-longname	"Turtles Forever"
+longname	"Uphill battle"
 type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
-author		"Moixie"
+author		"Jan Groothuijse"
 bots		"sergei kyonshi grism sergei major"
 capturelimit	"7"
 fraglimit	"20"
@@ -103,9 +103,9 @@ timelimit	"15"
 //CTF02
 {
 map		"oacmpctf2"
-longname	"Uphill battle"
+longname	"Turtles Forever"
 type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
-author		"Jan Groothuijse"
+author		"Moixie"
 bots		"sergei kyonshi grism sergei major"
 capturelimit	"7"
 fraglimit	"20"
