@@ -83,7 +83,7 @@ fraglimit	"15"
 //DM10
 {
 map		"oacmpdm10"
-longname	"Under destruction"
+longname	"Under Destruction"
 type		"ffa lms team elimination ctf ctfelimination dd dom oneflag harvester overload"
 author		"Gig"
 bots		"ghost broadklin morgan assassin"
@@ -92,7 +92,7 @@ fraglimit	"20"
 //CTF01
 {
 map		"oacmpctf1"
-longname	"Uphill battle"
+longname	"Uphill Battle"
 type		"team ctf elimination ctfelimination dd oneflag harvester overload dom"
 author		"Jan Groothuijse"
 bots		"sergei kyonshi grism sergei major"
