@@ -7,13 +7,16 @@
 # -----------------------------------------------------
 echo Compressing...
 cd baseoa
-zip -9r ../z_oacmp1_beta.pk3 levelshots/*
-zip -9r ../z_oacmp1_beta.pk3 maps/*
-zip -9r ../z_oacmp1_beta.pk3 models/*
-zip -9r ../z_oacmp1_beta.pk3 scripts/*
-zip -9r ../z_oacmp1_beta.pk3 sound/*
-zip -9r ../z_oacmp1_beta.pk3 textures/*
-zip -9r ../z_oacmp1_beta.pk3 *.cfg
+zip -9r ..\z_oacmp1_beta.pk3 levelshots\*.jpg
+zip -9r ..\z_oacmp1_beta.pk3 levelshots\*.tga
+zip -9r ..\z_oacmp1_beta.pk3 maps\*.aas
+zip -9r ..\z_oacmp1_beta.pk3 maps\*.bsp
+zip -9r ..\z_oacmp1_beta.pk3 models\*.*
+zip -9r ..\z_oacmp1_beta.pk3 scripts\*.arena
+zip -9r ..\z_oacmp1_beta.pk3 scripts\*.shader
+zip -9r ..\z_oacmp1_beta.pk3 sound\*.*
+zip -9r ..\z_oacmp1_beta.pk3 textures\*.*
+zip -9r ..\z_oacmp1_beta.pk3 *.cfg
 echo Done
 
 exit 0
