@@ -2,12 +2,12 @@
 oacmpdm5 - The Other Side
 =====================
 
-Title:			The other side
-Map filename:	oacmpdm5.bsp
-Date:			04-02-2013
-Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
-Gametypes:		FFA, Tourney, TDM, Elimination, LMS, DDom
-Players:		2 - 6
+Title:          The other side
+Map filename:   oacmpdm5.bsp
+Date:           04-02-2013
+Author:         Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
+Gametypes:      FFA, Tourney, TDM, Elimination, LMS, DDom
+Players:        2 - 6
 
 Description:	
 	Open 'outdoor' map. Designed so that there would be room to fight. Redundant teleporters were added to make chases more interesting.
