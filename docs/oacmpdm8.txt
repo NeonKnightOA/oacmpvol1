@@ -3,11 +3,11 @@ oacmpdm8 - Subdivision
 =====================
 
 Title:			Subdivision
-Map filename:	oacmpdm8.bsp
+Map filename:	  oacmpdm8.bsp
 Author:			Jan Groothuijse (http://jan.groothuijse.net/maps.html) (jan@groothuijse.net)
 Gametypes:		FFA, TDM, Tourney, Elimination, LMS
 Players:		4 - 6
-Description:	An open, "U" shaped DM/Elimination map.
+Description:	  An open, "U" shaped DM/Elimination map.
 
 
 License:
