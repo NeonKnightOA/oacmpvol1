@@ -4,8 +4,7 @@ OpenArena DM/Tourney level.
 ============================================================
 Title:            The Crypt
 Map filename:     oacmpdm1.bsp
-Author:           Cosimo "Akom74" Pederiva & Luciano "Neon_Knight" Balducchi
-Email address:    openarena.arg@gmail.com (Neon_Knight)
+Author:           Cosimo "Akom74" Pederiva
 URL:              http://akom74.forumattivo.com/forum.htm (Akom74)
 Description:      A map set in a crypt.
 
@@ -24,6 +23,7 @@ CTF Elimination:  no
 Last Man Standing:yes
 Double Domination:no
 Domination:       no
+Possession:       yes
 Bot File (aas):   yes
 other:            no
 new sounds:       yes
@@ -53,7 +53,7 @@ Everyone who supported us, and those who gave us feedback at the OA forums
 Distribution / Copyright / Permissions 
 
 oacmpdm1 - The Crypt - Part of the OpenArena Community Mappack.
-Copyright (C) 2014 Cosimo "Akom74" Pederiva and Luciano "Neon_Knight" Balducchi
+Copyright (C) 2014 Cosimo "Akom74" Pederiva
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

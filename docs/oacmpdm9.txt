@@ -4,8 +4,7 @@ OpenArena DM/Tourney level.
 ============================================================
 Title:            The Sanctuary
 Map filename:     oacmpdm9.bsp
-Author:           Cosimo "Akom74" Pederiva & Luciano "Neon_Knight" Balducchi
-Email address:    openarena.arg@gmail.com (Neon_Knight)
+Author:           Cosimo "Akom74" Pederiva
 URL:              http://akom74.forumattivo.com/forum.htm (Akom74)
 Description:      A temple map inspired by Unreal Tournament III's DM-Sanctuary.
 
@@ -53,7 +52,7 @@ Everyone who supported us, and those who gave us feedback at the OA forums
 Distribution / Copyright / Permissions 
 
 oacmpdm9 - The Sanctuary - Part of the OpenArena Community Mappack.
-Copyright (C) 2014 Cosimo "Akom74" Pederiva and Luciano "Neon_Knight" Balducchi
+Copyright (C) 2014 Cosimo "Akom74" Pederiva
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
