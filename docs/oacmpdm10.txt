@@ -20,7 +20,7 @@ Map long name: Under Destruction
 Filename: oacmpdm10.bsp
 Version: 1.1
 Author: Gig
-License: GPLv2 (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
+License: GPLv2+ (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
 Map size: Medium
 Deathmatch spawn points: 26 (3 of them disabled during DD mode)
 Team-based spawn points: 0
@@ -93,8 +93,8 @@ The initial idea was to create a map adapt to be used with "Elimination" mode of
 
 The map is also enjoyable for classic Deathmatches, and I added support of all the gametypes currently available in BASEOA (OA 0.8.8). Gametypes usually played in symmetric or specular maps give a strange feel due to the map being asymmetric and unbalanced... and I purposely did not place "team" spawn points... this means that you may respawn near to your base, but also near to your opponent's base, or in the middle of the map. I hope you may like this randomness.
 
-You may try the map in any gametype with "g_elimination" feature enabled or disabled as you wish (and with elimination_grapple enabled or disabled as you prefer), with "elimination_selfdamage 0" to do not get hurt by rocket jumps. Well, may also try the map in any mode with "dmflags 1032" (if you are running at least OpenArena 0.8.8) to do not get damage from rocket jumps, but still have usual pick-ups around the arena. Of course, "dmflags 1032" works very well also with "all rockets" mode ("g_rockets 1"). You may want to restore your original dmflags value after you finish (dmflags default value is 0, in OA 0.8.8). See http://openarena.wikia.com/wiki/Dmflags.
-You can refer to OpenArena documentation on http://openarena.wikia.com for infos about gametypes and game options.
+You may try the map in any gametype with "g_elimination" feature enabled or disabled as you wish (and with elimination_grapple enabled or disabled as you prefer), with "elimination_selfdamage 0" to do not get hurt by rocket jumps. Well, may also try the map in any mode with "dmflags 1032" (if you are running at least OpenArena 0.8.8) to do not get damage from rocket jumps, but still have usual pick-ups around the arena. Of course, "dmflags 1032" works very well also with "all rockets" mode ("g_rockets 1"). You may want to restore your original dmflags value after you finish (dmflags default value is 0, in OA 0.8.8). See http://openarena.fandom.com/wiki/Dmflags.
+You can refer to OpenArena documentation on http://openarena.fandom.com for infos about gametypes and game options.
 
 The location of the map is open to interpretation: you may think about it as an archeological site, or as a place where they are building something, or as a place that has got an air strike or just as a war zone... or all of these together. I find that "Under Destruction" name, joking with the more common "Under Construction" term, fits well. My initial idea was to give an "ancient" look to the area (it features an aqueduct, a temple, two towers...), however consider it what you prefer, the important thing is that is can be used as an "Arena" for cruel deathmatches! "Team overlay" feature will show you the names I chose for various places.
 
@@ -114,7 +114,7 @@ What else to say? Enjoy the map! Go rocket-jumping and (more important) fragging
 Being the map released under GPLv2, you are free to modify it and to create your own maps from it. Thus, I will tell you these few infos:
 - I created the map mostly using Q3Radiant 202, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit. ID Software released Q3Radiant source code under GPL license, you can find it here: https://github.com/id-Software/Quake-III-Arena
 - You HAVE TO add "gig01" to the list of your shaderlist.txt file, otherwise the small animated brushes over jump pads would be SOLID, the sky would not illuminate the map, etc.
-- For compiling, I used "Bsp_fullvis (-light -extra)" option (Q3MAP from Q3Radiant), just tweaked to take advantage of multithreading (see http://http://openarena.wikia.com/wiki/Multithreaded_map_compiling).
+- For compiling, I used "Bsp_fullvis (-light -extra)" option (Q3MAP from Q3Radiant), just tweaked to take advantage of multithreading (see http://http://openarena.fandom.com/wiki/Multithreaded_map_compiling).
 - I compiled the .AAS file with "bspc -grapplereach -optimize -bsp2aas mapname.bsp".
 - I used "BSPC version 2.1h, May  6 2001 16:15:03 by Mr Elusive" (the version which comes with GTKRadiant 1.5 package here: http://icculus.org/gtkradiant/downloads/1.5/GtkRadiant-1.5.0.msi). It looks like BSPC version 2.1h is capable of better subdiving one particularly nasty "Cluster portal" of this map, than BSPC version 2.0 that comes with Q3Radiant. I can assure you I had a long work to subdivide this map with cluster portals, trying to avoid bot-related "hitches" (bot stutters).
 
@@ -129,7 +129,7 @@ In Openarena 0.8.8, g_runes is set to 0 by default (who knows, maybe this may ch
 
 Note: Runes, just like Chaingun, Proximity mines launcher and Nailgun weapons, do not appear at all when playing with most old mods designed for Q3A.
 
-For infos about runes, please read http://openarena.wikia.com/wiki/Runes
+For infos about runes, please read http://openarena.fandom.com/wiki/Runes
 
 ------------------------------------
 *** 5 - Offhand grapple ***
@@ -145,9 +145,9 @@ IF YOU DO NOT WANT THE GRAPPLING HOOK AT ALL (examples: to do not have an unfair
 - If you are playing in standard modes (where pick-ups spawn normally), you can prevent just the hooks from spawning (removing all hooks from the match): you have to type "/set disable_weapon_grapplinghook 1" in console. All other items would spawn normally, except the grapples.
 *** A MAP RESTART IS REQUIRED FOR THE CHANGE TO BE EFFECTIVE. ***
 Please notice that disable_weapon_grapplinghook is NOT a "declared" variable. This means that it is NOT shown at all (and that it does not autocomplete) before YOU create it as an user-defined variable (using "set" or "seta" command). To have the hooks back, just set the variable to 0 (counting as an user-defined variable, you can also DELETE it with "/unset disable_weapon_grapplinghook"), then do a map_restart.
-Fore more infos, you can refer to http://openarena.wikia.com/wiki/Disabling_and_replacing_items
+Fore more infos, you can refer to http://openarena.fandom.com/wiki/Disabling_and_replacing_items
 
-Infos about offhand grapple here: http://openarena.wikia.com/wiki/Offhand_grapple
+Infos about offhand grapple here: http://openarena.fandom.com/wiki/Offhand_grapple
 
 ------------------------------------
 *** 6 - Railgun and BFG ***
@@ -155,7 +155,7 @@ Infos about offhand grapple here: http://openarena.wikia.com/wiki/Offhand_grappl
 The only railgun in this map spawns every 45 seconds, and there are two slugs ammo boxes only. There is only one BFG (that spawns every 60 seconds), and only one ammo box for it. However, if you feel they are overpowered in this "open" map, you can disable them:
 - If you are playing in Elimination or similar mode, you can just tweak their starting ammo (by modifying "/elimination_railgun" and "/elimination_bfg" variables values - In OA 0.8.8, their default values are 20 and 0, respectively). You may for example give each player just two or three shots for such weapons.
 - If you are playing in standard modes, you can use "/set disable_weapon_railgun 1" or "/set disable_weapon_bfg 1" to prevent them from spawning in the game. If you remove the weapons, you may also remove their ammo boxes, with "/set disable_ammo_slugs 1" and "/set disable_ammo_bfg 1". Then do a map_restart. They work as "user-defined" variables: see the above section about "Offhand grapple" for more infos.
-Fore more infos, you can refer to http://openarena.wikia.com/wiki/Disabling_and_replacing_items
+Fore more infos, you can refer to http://openarena.fandom.com/wiki/Disabling_and_replacing_items
 
 ------------------------------------
 *** 7 - Additional credits ***
@@ -235,9 +235,9 @@ And thanks to YOU for reading all this stuff! :-)
 
 OpenArena Official site: http://www.openarena.ws
 Openarena Official forum: http://www.openarena.ws/board
-OpenArena Official wiki: http://openarena.wikia.com
-OpenArena Gamer's manual: http://openarena.wikia.com/wiki/Manual
-OpenArena Community Mappack: http://openarena.wikia.com/wiki/OACMP
+OpenArena Official wiki: http://openarena.fandom.com
+OpenArena Gamer's manual: http://openarena.fandom.com/wiki/Manual
+OpenArena Community Mappack: http://openarena.fandom.com/wiki/OACMP
 
 GPL license: http://www.gnu.org/licenses/gpl-2.0.html
 

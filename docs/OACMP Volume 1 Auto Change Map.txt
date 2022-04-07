@@ -3,7 +3,7 @@
 "Auto change map" is a nice feature which allows the game to randomly choose the next map to be played,
 picking it from pre-set map lists (mappools) for each gametype.
 
-For more infos: http://openarena.wikia.com/wiki/G_autonextmap
+For more infos: http://openarena.fandom.com/wiki/G_autonextmap
 
 You can use "oacmp1_set_mappools" and "oacmp1_reset_mappools" scripts to set and unset OACMP Volume 1 maps for "auto change map" feature (g_autonextmap).
 

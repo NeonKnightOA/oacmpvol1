@@ -11,4 +11,4 @@ For more infos about the map and ABOUT THESE FILES (e.g. where they do come from
 
 Links:
 http://www.openarena.ws/board
-http://openarena.wikia.com/wiki/OpenArena_Community_Mappack
+http://openarena.fandom.com/wiki/OpenArena_Community_Mappack
