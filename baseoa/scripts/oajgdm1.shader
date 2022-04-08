@@ -91,6 +91,7 @@ textures/q3j/jumppad
 	qer_trans .5	
 	surfaceparm noimpact
 	surfaceparm nolightmap
+	surfaceparm nomarks
 	cull none
 	surfaceparm trans
 	surfaceparm nonsolid
