@@ -69,7 +69,7 @@ textures/stone/marble02b_floor
 {
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.10 0.10 0.10 )
 	}
 	{
@@ -102,7 +102,7 @@ textures/q3j/telemarble
 	surfaceparm nomarks
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.3 0.3 0.3 )
 	}
 	{
@@ -230,14 +230,14 @@ textures/q3j/white_glowing_250
 textures/q3j/jumppad_plus_y
 {
 	qer_editorimage textures/q3j/white.tga
-	qer_trans .5	
+	qer_trans .5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	cull none
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nodlight
-
+	
 	deformvertexes move 0 50 50 sawtooth 0 1 1 1.3
 	{
 		clampmap textures/q3j/white.tga
@@ -256,9 +256,8 @@ textures/oajg_sky/dm2
 	q3map_lightSubdivide 1024
 	q3map_lightRGB 1.0 1.0 0.9
 	q3map_forcesunlight
-	surfaceparm     sky //tells the game it's a sky
-	surfaceparm     noimpact //no projectiles impact here
-	surfaceparm     nolightmap //no shadows on this surface
-	surfaceparm     nomarks //no burn marks
+	surfaceparm sky //tells the game it's a sky
+	surfaceparm noimpact //no projectiles impact here
+	surfaceparm nolightmap //no shadows on this surface
+	surfaceparm nomarks //no burn marks
 }
- 

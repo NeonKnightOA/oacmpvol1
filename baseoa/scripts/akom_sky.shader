@@ -117,7 +117,6 @@ textures/akom_sky/akompureblacksky
 	skyparms textures/akom_env/pureblacksky - -
 }
 
-
 textures/akom_sky/akomstars2
 {
 	qer_editorimage textures/akom_sky/akomstars2.tga
@@ -133,19 +132,17 @@ textures/akom_sky/akomstars2
 	}
 }
 
-
 textures/akom_sky/akom_stars
 {
-        surfaceparm trans	
-        surfaceparm nomarks	
-        surfaceparm nonsolid
+	qer_trans 0.5
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm nonsolid
 	surfaceparm nolightmap
-        cull none
-               
+	cull none
 	{
 		map textures/akom_sky/akom_stars.tga
-                tcMod Scroll .5 .6
-                blendFunc GL_ONE GL_ONE
-        }
-            
+		tcMod Scroll .5 .6
+		blendFunc GL_ONE GL_ONE
+	}
 }

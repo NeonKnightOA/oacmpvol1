@@ -16,21 +16,22 @@ textures/common/lavacaulk
 	qer_trans 0.50
 	surfaceparm lava
 	qer_nocarve
-qer_trans 0.5
+	qer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
-    surfaceparm nolightmap
+	surfaceparm nolightmap
 }
+
 // Use for slime canals.
 textures/common/slimecaulk
 {
 	qer_trans 0.50
 	surfaceparm slime
 	qer_nocarve
-qer_trans 0.5
+	qer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
-    surfaceparm nolightmap
+	surfaceparm nolightmap
 }
 // Use for water canals.
 textures/common/watercaulk
@@ -38,11 +39,12 @@ textures/common/watercaulk
 	qer_trans 0.50
 	surfaceparm water
 	qer_nocarve
-qer_trans 0.5
+	qer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
-    surfaceparm nolightmap
+	surfaceparm nolightmap
 }
+
 // Nodraw for hints.
 textures/common/skip
 {

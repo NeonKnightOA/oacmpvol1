@@ -1,7 +1,7 @@
 textures/akom_sfx/akom_glass
 {
 	qer_editorimage textures/akom_sfx/glass_shiny.tga
-	surfaceparm trans 
+	surfaceparm trans
 	cull none
 	qer_trans 0.5
 	{
@@ -20,7 +20,7 @@ textures/akom_sfx/akom_glass
 textures/akom_sfx/akom_glass2
 {
 	qer_editorimage textures/akom_sfx/glass_square.tga
-	surfaceparm trans 
+	surfaceparm trans
 	cull none
 	qer_trans 0.5
 	{
@@ -41,7 +41,7 @@ textures/akom_sfx/akomjump
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	q3map_surfacelight 200
 	{
@@ -67,7 +67,7 @@ textures/akom_sfx/akombump
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	q3map_surfacelight 200
 	{
@@ -79,7 +79,6 @@ textures/akom_sfx/akombump
 		map textures/akom_sfx/akombump_x.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave sin .5 .5 0 1.5
-		
 	}
 }
 
@@ -88,7 +87,7 @@ textures/akom_sfx/akombumpy
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disable
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	q3map_surfacelight 200
 	{
@@ -100,7 +99,6 @@ textures/akom_sfx/akombumpy
 		map textures/akom_sfx/akombump_y.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave sin .5 .5 0 1.5
-		
 	}
 }
 
@@ -108,7 +106,7 @@ textures/akom_sfx/akom74_glow
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	q3map_surfacelight 200
@@ -123,7 +121,7 @@ textures/akom_sfx/akom_circle_spawn
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	{
@@ -138,7 +136,7 @@ textures/akom_sfx/akom_power_spawn
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	{
@@ -152,7 +150,7 @@ textures/akom_sfx/akom_weapon_spawn
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	{
@@ -166,21 +164,21 @@ textures/akom_sfx/arrow_red
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	{
 		map textures/akom_sfx/arrow_red.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
-	} 
+	}
 }
 
 textures/akom_sfx/arrow_blue
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	{
@@ -194,7 +192,7 @@ textures/akom_sfx/arrow_dir_red
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	q3map_surfacelight 100
@@ -207,7 +205,6 @@ textures/akom_sfx/arrow_dir_red
 		map textures/akom_sfx/arrow_dir_red_x.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave sin .5 .5 0 1.5
-		
 	}
 }
 
@@ -215,7 +212,7 @@ textures/akom_sfx/arrow_dir_blue
 {
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull disable
 	q3map_surfacelight 100
@@ -228,17 +225,16 @@ textures/akom_sfx/arrow_dir_blue
 		map textures/akom_sfx/arrow_dir_blue_x.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave sin .5 .5 0 1.5
-		
 	}
 }
 
 textures/akom_sfx/yellowbeam
 {
-	surfaceparm trans 
-	surfaceparm nomarks 
+	surfaceparm trans
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm nolightmap
-	surfaceparm trans 
+	surfaceparm trans
 	qer_trans 0.5
 	cull none
 	{
