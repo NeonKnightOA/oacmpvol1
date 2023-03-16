@@ -21,13 +21,13 @@ We hope you enjoy this pack as much as we enjoyed creating it.
 
 == CONTENT ==
 * oacmpdm1 - The Crypt
-  * Authors: Akom74
+  * Author: Akom74
   * Gametypes: FFA, Tourney, Team DM, Elimination, LMS.
 * oacmpdm2 - Danger Arena
-  * Authors: Akom74
+  * Author: Akom74
   * Gametypes: FFA, Tourney, LMS.
 * oacmpdm3 - Egyptian Trouble
-  * Authors: Akom74
+  * Author: Akom74
   * Gametypes: FFA, Tourney, Team DM, Elimination, LMS, One Flag CTF, Harvester, Double DOM.
 * oacmpdm4 - 3013 Xan's Space
   * Author: Akom74
@@ -39,13 +39,13 @@ We hope you enjoy this pack as much as we enjoyed creating it.
   * Author: jangroothuijse
   * Gametypes: FFA, Tourney, Team DM, CTF, One Flag CTF, Harvester, Overload, Elimination, CTF Elimination, LMS, Double DOM.
 * oacmpdm7 - Plan 9 From Outer Space
-  * Authors: Moixie
+  * Author: Moixie
   * Gametypes: FFA, Tourney, LMS.
 * oacmpdm8 - Subdivision
   * Author: jangroothuijse
   * Gametypes: FFA, Tourney, Team DM, Elimination, LMS.
 * oacmpdm9 - The Sanctuary
-  * Authors: Akom74
+  * Author: Akom74
   * Gametypes: FFA, Tourney, Team DM, Elimination, LMS.
 * oacmpdm10 - Under Destruction
   * Author: Gig
@@ -54,10 +54,10 @@ We hope you enjoy this pack as much as we enjoyed creating it.
   * Authors: jangroothuijse and pelya
   * Gametypes: Team DM, CTF, One Flag CTF, Harvester, Overload, Elimination, CTF Elimination, Double DOM, Domination.
 * oacmpctf2 - Turtles Forever
-  * Authors: Moixie
+  * Author: Moixie
   * Gametypes: Team DM, CTF, One Flag CTF, Harvester, Overload, Elimination, CTF Elimination, Double DOM, Domination.
 * oacmpctf3 - Facing Giants
-  * Authors: Akom74
+  * Author: Akom74
   * Gametypes: CTF, One Flag CTF, Harvester, Overload, Elimination, CTF Elimination, Double DOM, Domination.
   
 More infos about each map are contained in individual .txt files. oacmpdm10 author recommends reading the .txt about that map.
@@ -70,7 +70,7 @@ jangroothuijse - mapping, textures.
 pelya - Test server, bugfixing.
 Moixie - Mapping.
 fromhell - Detail textures.
-The above and everyone else who cared at the OA forums - Testing.
+The above and everyone else who cared at the OA forums and OA Discord - Testing.
 Yves "evillair" Allaire - evil* textures. [nicked from Nexuiz]
 Simon "sock" O'Callaghan - egyptsoc* textures. [nicked from Nexuiz, permission is in the "docs" folder]
 
@@ -92,7 +92,7 @@ The "mod" has been designed for OpenArena 0.8.8, and further OA versions may not
 == TROUBLESHOOTING ==
 Before reporting a problem, check if you have additional packages in your game paths. More often than not, most of the common problems have to do with third-party packages (texture compatibility packs or other maps, for example) interfering with the pack or the game's assets. Moving those extra .pk3 files to another place will do the trick.
 
-You can contact OACMP Team on official OpenArena forums: http://www.openarena.ws/board
+You can contact OACMP Team on OpenArena Discord https://discord.gg/n3dTmzM or OpenArena forums http://www.openarena.ws/board
 
 == LICENSE ==
 This mappack is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
