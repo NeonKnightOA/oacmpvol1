@@ -22,7 +22,7 @@ Version: 1.1
 Author: Gig
 License: GPLv2+ (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
 Map size: Medium
-Deathmatch spawn points: 26 (3 of them disabled during DD mode)
+Deathmatch spawn points: 32 (3 of them disabled during DD mode)
 Team-based spawn points: 0
 Number of players: any number. Maybe 5-8 are the best, however anything between 4 and 12 is good... and I even played it in 1vs1 and in 20! For team-based modes, I can guess that 4 or 5 players per team should be very good, but also 3 and 6 may work (in case of Double Domination mode, probably 2vs2 and 3vs3 are good).
 
@@ -41,12 +41,14 @@ Supported gametypes:
 - 10 - Last Man Standing (A)
 - 11 - Double Domination (B)
 - 12 - Domination (B) (6 domination points)
+- 13 - Possession (E) (in place of the Domination Points - Not supported in OA 0.8.8)
 
 Legend:
 "(A)": These are the modes for which the map was initially thought. I really suggest you to try it in these modes. Maybe you may wish to give all players just a small number of Railgun ammo.
 "(B)": These gametypes work well with the map (it's basically a medium sized FFA map, so these gametypes fit, I suppose especially FFA and TDM). In DD mode, it's advisable to use few players (e.g. 3vs3) in this map, because the points are hard to protect.
 "(C)": These gametypes are can be played in the map, but be aware that they give an unconventional gameplay due to the fact the map is not symmetric (hence, not perfectly fair in CTF-like modes) and that I purposely did not include "team" spawn points, to give a different twist to CTF gameplay with random spawning.
 "(D)": You can try it in Tournament, too, even if the map isn't listed for that in the GUI. After making a try, I found out that it's not as bad as I thought for 1vs1 (the openess of the map makes it relatively easy to find the enemy, unless he's hiding). So you can try it, manually setting g_gametype 1, if you wish.
+"(E)": Possession (g_gametype 13) has been introduced in OpenArena gamecode AFTER OA 0.8.8 was released. Until a new version of OA is released, POS can already be tested by using "OAX test mod" (see https://openarena.fandom.com/wiki/OAX for info). POS is a team-less mode where you have to find the flag and hold it as long as possible. I made the flag randomly spawn at one of the six Domination spawn points; it changes spawn point at every match.
 
 Items:
 1x BFG (1 ammo box)
@@ -112,7 +114,7 @@ What else to say? Enjoy the map! Go rocket-jumping and (more important) fragging
 *** 3 - Notes for mappers ***
 
 Being the map released under GPLv2, you are free to modify it and to create your own maps from it. Thus, I will tell you these few infos:
-- I created the map mostly using Q3Radiant 202, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit. ID Software released Q3Radiant source code under GPL license, you can find it here: https://github.com/id-Software/Quake-III-Arena
+- I created the map mostly using Q3Radiant, and I used NetRadiant 1.5 to add Team Arena and OA-specific items. Yes, I mostly used Q3Radiant from a Quake III installation, really sorry about that, but when I stared the map I didn't know how to use NetRadiant. In the few edits I did from NetRadiant, I avoided using editor features that are not supported by Q3Radiant, like using a grid smaller than 1 unit. Again, I'm sorry about using Q3Radiant, but I should mention that ID Software released Q3Radiant source code under GPL license: https://github.com/id-Software/Quake-III-Arena
 - You HAVE TO add "gig01" to the list of your shaderlist.txt file, otherwise the small animated brushes over jump pads would be SOLID, the sky would not illuminate the map, etc.
 - For compiling, I used "Bsp_fullvis (-light -extra)" option (Q3MAP from Q3Radiant), just tweaked to take advantage of multithreading (see http://http://openarena.fandom.com/wiki/Multithreaded_map_compiling).
 - I compiled the .AAS file with "bspc -grapplereach -optimize -bsp2aas mapname.bsp".
@@ -234,8 +236,9 @@ And thanks to YOU for reading all this stuff! :-)
 *** 9 - Links ***
 
 OpenArena Official site: http://www.openarena.ws
-Openarena Official forum: http://www.openarena.ws/board
-OpenArena Official wiki: http://openarena.fandom.com
+Openarena forum: http://www.openarena.ws/board
+OpenArena Discord: https://discord.gg/n3dTmzM
+OpenArena wiki: http://openarena.fandom.com
 OpenArena Gamer's manual: http://openarena.fandom.com/wiki/Manual
 OpenArena Community Mappack: http://openarena.fandom.com/wiki/OACMP
 
