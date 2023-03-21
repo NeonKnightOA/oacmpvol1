@@ -22,7 +22,7 @@ Version: 1.1
 Author: Gig
 License: GPLv2+ (it allows you to re-use and modify it following the terms of GNU General Public License, version 2, or -at your opinion- any later version; please refer to COPYING file for complete license text)
 Map size: Medium
-Deathmatch spawn points: 32 (3 of them disabled during DD mode)
+Deathmatch spawn points: 32 (3 disabled during DD mode. 2 enabled in Dom mode only.)
 Team-based spawn points: 0
 Number of players: any number. Maybe 5-8 are the best, however anything between 4 and 12 is good... and I even played it in 1vs1 and in 20! For team-based modes, I can guess that 4 or 5 players per team should be very good, but also 3 and 6 may work (in case of Double Domination mode, probably 2vs2 and 3vs3 are good).
 
