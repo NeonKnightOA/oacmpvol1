@@ -55,6 +55,7 @@ textures/akom_teleporter/akom_teleporter
 textures/akom_teleporter/slime9
  
 {
+	qer_editorImage textures/liquids/slime9.jpg
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	cull disable
