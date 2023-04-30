@@ -122,3 +122,4 @@ textures/q3j/teleport
 		blendfunc add
 	}
 }
+

@@ -9,17 +9,17 @@ textures/oajg_sky/ctf1
 	q3map_lightSubdivide 1024
 	q3map_lightRGB 1.0 1.0 0.9
 	q3map_forcesunlight
-	surfaceparm     sky //tells the game it's a sky
-	surfaceparm     noimpact //no projectiles impact here
-	surfaceparm     nolightmap //no shadows on this surface
-	surfaceparm     nomarks //no burn marks
+	surfaceparm sky //tells the game it's a sky
+	surfaceparm noimpact //no projectiles impact here
+	surfaceparm nolightmap //no shadows on this surface
+	surfaceparm nomarks //no burn marks
 }
 
 textures/oacmp_jan/metalfloor_wall_14bglow2r
-{	
+{
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
@@ -33,3 +33,4 @@ textures/oacmp_jan/metalfloor_wall_14bglow2r
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 }
+

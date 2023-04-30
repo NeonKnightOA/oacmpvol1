@@ -49,7 +49,7 @@ textures/akom_sfx/akomjump
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
 	}
-	{ 
+	{
 		animmap 4 textures/akom_sfx/akomjump_x.tga textures/akom_sfx/akomjump_x.tga textures/akom_sfx/akomjump_x.tga textures/akom_sfx/akomjump_x.tga
 		blendfunc GL_ONE GL_ONE
 		tcmod scroll 0 1
@@ -58,7 +58,6 @@ textures/akom_sfx/akomjump
 		map textures/akom_sfx/akomlogo_x.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave sin .5 .5 0 1.5
-		
 	}
 }
 
@@ -185,7 +184,7 @@ textures/akom_sfx/arrow_blue
 		map textures/akom_sfx/arrow_blue.tga
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
-	} 
+	}
 }
 
 textures/akom_sfx/arrow_dir_red

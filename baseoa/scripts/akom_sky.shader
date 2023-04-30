@@ -7,7 +7,7 @@ textures/akom_sky/akomsky
 	q3map_lightsubdivide 256
 	q3map_surfacelight 35
 	surfaceparm sky
-	q3map_sun	1 1 1 32	90 90
+	q3map_sun 1 1 1 32 90 90
 	skyparms textures/akom_env/akomsky3 - -
 	{
 		map textures/akom_sky/anoice1.tga
@@ -47,7 +47,7 @@ textures/akom_sky/akomsky3
 	q3map_lightsubdivide 512
 	q3map_surfacelight 50
 	surfaceparm sky
-	q3map_sun	1 1 1 32	90 90
+	q3map_sun 1 1 1 32 90 90
 	skyparms textures/akom_env/akomsky3 - -
 	{
 		map textures/pulchr/pul1duelsky-a.jpg
@@ -67,7 +67,7 @@ textures/akom_sky/akomblacksky
 	q3map_lightsubdivide 512
 	q3map_surfacelight 50
 	surfaceparm sky
-	q3map_sun	1 1 1 32	90 90
+	q3map_sun 1 1 1 32 90 90
 	skyparms env/earthsky/earthsky - -
 }
 
@@ -100,7 +100,7 @@ textures/akom_sky/akomblacksky3
 	q3map_lightsubdivide 512
 	q3map_surfacelight 50
 	surfaceparm sky
-	q3map_sun	1 1 1 32	90 90
+	q3map_sun 1 1 1 32 90 90
 	skyparms textures/akom_env/nebulae2 - -
 }
 
@@ -111,9 +111,9 @@ textures/akom_sky/akompureblacksky
 	surfaceparm nolightmap
 	q3map_globaltexture
 	q3map_lightsubdivide 256
-	q3map_surfacelight 80
+	q3map_surfacelight 512
 	surfaceparm sky
-	q3map_sun	1 1 1 32	90 90
+	// q3map_sun 1 1 1 512 90 90
 	skyparms textures/akom_env/pureblacksky - -
 }
 
@@ -124,7 +124,7 @@ textures/akom_sky/akomstars2
 	surfaceparm nolightmap
 	q3map_surfacelight 40
 	q3map_lightsubdivide 512
-	q3map_sun	1 1 1 32	90 90
+	q3map_sun 1 1 1 32 90 90
 	{
 		map	textures/akom_sky/akomstars2.tga
 		tcmod scroll 2 0
@@ -146,3 +146,4 @@ textures/akom_sky/akom_stars
 		blendFunc GL_ONE GL_ONE
 	}
 }
+

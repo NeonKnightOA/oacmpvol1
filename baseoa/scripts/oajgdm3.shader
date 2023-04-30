@@ -1,8 +1,8 @@
 textures/q3j/orangered
-{	
+{
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
@@ -18,10 +18,10 @@ textures/q3j/orangered
 }
 
 textures/q3j/yellow
-{	
+{
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.25 0.25 0.25 )
 	}
 	{
@@ -40,7 +40,7 @@ textures/q3j/e8spacecrete
 {
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.05 0.05 0.05 )
 	}
 	{
@@ -64,7 +64,7 @@ textures/q3j/e8spacecretelight
 {
 	{
 		map $lightmap
-		       	tcGen environment	
+		tcGen environment
 		rgbGen const ( 0.10 0.10 0.10 )
 	}
 	{
@@ -94,8 +94,9 @@ textures/oajg_sky/dm3
 	q3map_lightSubdivide 1024
 	q3map_lightRGB 1.0 1.0 0.9
 	q3map_forcesunlight
-	surfaceparm     sky //tells the game it's a sky
-	surfaceparm     noimpact //no projectiles impact here
-	surfaceparm     nolightmap //no shadows on this surface
-	surfaceparm     nomarks //no burn marks
+	surfaceparm sky //tells the game it's a sky
+	surfaceparm noimpact //no projectiles impact here
+	surfaceparm nolightmap //no shadows on this surface
+	surfaceparm nomarks //no burn marks
 }
+

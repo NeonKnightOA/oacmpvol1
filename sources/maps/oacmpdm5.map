@@ -7350,7 +7350,6 @@
 // entity 330
 {
 "classname" "func_group"
-"_lightmapscale" "0.125"
 // brush 0
 {
 patchDef2
@@ -7472,7 +7471,6 @@ stone/conc_strange
 // entity 331
 {
 "classname" "func_group"
-"_lightmapscale" "0.125"
 // brush 0
 {
 patchDef2
@@ -7581,7 +7579,6 @@ stone/conc_strange
 // entity 332
 {
 "classname" "func_group"
-"_lightmapscale" "0.125"
 // brush 0
 {
 patchDef2
@@ -7638,7 +7635,6 @@ stone/wall_stone02_c
 // entity 333
 {
 "classname" "func_group"
-"_lightmapscale" "0.125"
 // brush 0
 {
 patchDef2

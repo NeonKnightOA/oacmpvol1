@@ -1,5 +1,3 @@
-
-
 textures/q3j/brightred_glowing_500
 {
 	qer_editorimage textures/q3j/white.tga
@@ -10,8 +8,9 @@ textures/q3j/brightred_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
+
 textures/q3j/brightblue_glowing_500
 {
 	qer_editorimage textures/q3j/white.tga
@@ -22,9 +21,8 @@ textures/q3j/brightblue_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
-
 
 textures/q3j/brightgreen_glowing_500
 {
@@ -36,9 +34,8 @@ textures/q3j/brightgreen_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
-
 
 textures/q3j/brightyellow_glowing_500
 {
@@ -50,7 +47,7 @@ textures/q3j/brightyellow_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/orange_glowing_500
@@ -62,7 +59,7 @@ textures/q3j/orange_glowing_500
 	{
 		map textures/q3j/orange.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/stone/marble02b_floor
@@ -93,9 +90,8 @@ textures/q3j/light_green_glowing_500
 	{
 		map textures/q3j/light_green.tga
 		rgbGen identity
-	}	
+	}
 }
-
 
 textures/q3j/telemarble 
 {
@@ -127,7 +123,7 @@ textures/q3j/lime_green_glowing_500
 	{
 		map textures/q3j/lime_green.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/red_glowing_500
@@ -139,9 +135,8 @@ textures/q3j/red_glowing_500
 	{
 		map textures/q3j/red.tga
 		rgbGen identity
-	}	
+	}
 }
-
 
 textures/q3j/rednoise_glowing_500
 {
@@ -152,7 +147,7 @@ textures/q3j/rednoise_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/blue_glowing_500
@@ -178,6 +173,7 @@ textures/q3j/green_glowing_500
 		rgbGen identity
 	}	
 }
+
 textures/q3j/white_glowing_500
 {
 	qer_editorimage textures/q3j/white.tga
@@ -185,7 +181,7 @@ textures/q3j/white_glowing_500
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/white_glowing
@@ -195,7 +191,7 @@ textures/q3j/white_glowing
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/white_glowing_2k
@@ -205,7 +201,7 @@ textures/q3j/white_glowing_2k
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/white_glowing_5k
@@ -215,7 +211,7 @@ textures/q3j/white_glowing_5k
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
 
 textures/q3j/white_glowing_250
@@ -225,8 +221,9 @@ textures/q3j/white_glowing_250
 	{
 		map textures/q3j/white.tga
 		rgbGen identity
-	}	
+	}
 }
+
 textures/q3j/jumppad_plus_y
 {
 	qer_editorimage textures/q3j/white.tga
@@ -237,7 +234,6 @@ textures/q3j/jumppad_plus_y
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nodlight
-	
 	deformvertexes move 0 50 50 sawtooth 0 1 1 1.3
 	{
 		clampmap textures/q3j/white.tga
@@ -261,3 +257,4 @@ textures/oajg_sky/dm2
 	surfaceparm nolightmap //no shadows on this surface
 	surfaceparm nomarks //no burn marks
 }
+
