@@ -28,6 +28,8 @@ Number of players: any number. Maybe 5-8 are the best, however anything between 
 
 Map designed and tested with OpenArena 0.8.8 during year 2013. It has been designed for OACMP (OpenArena Community MapPack) volume 1.
 
+Known issue: due to some bug in OpenAL implementation in ioquake3 (it being affected by VIS optimization, which is meant for graphics), you might experience the water sound start/stop abruptly as you move/look around in some places. While technically not a fault of the map, you might find it annoying: in this case, you may try disabling, at least temporarily, OpenAL audio mode (/s_useopenal 0, then /snd_restart).
+
 Supported gametypes:
 - 0 - Free For All (B)
 - 1 - Tournament (D) 
