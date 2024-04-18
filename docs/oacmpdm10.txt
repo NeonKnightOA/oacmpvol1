@@ -50,17 +50,17 @@ Legend:
 "(B)": These gametypes work well with the map (it's basically a medium sized FFA map, so these gametypes fit, I suppose especially FFA and TDM). In DD mode, it's advisable to use few players (e.g. 3vs3) in this map, because the points are hard to protect.
 "(C)": These gametypes are can be played in the map, but be aware that they give an unconventional gameplay due to the fact the map is not symmetric (hence, not perfectly fair in CTF-like modes) and that I purposely did not include "team" spawn points, to give a different twist to CTF gameplay with random spawning.
 "(D)": You can try it in Tournament, too, even if the map isn't listed for that in the GUI. After making a try, I found out that it's not as bad as I thought for 1vs1 (the openess of the map makes it relatively easy to find the enemy, unless he's hiding). So you can try it, manually setting g_gametype 1, if you wish.
-"(E)": Possession (g_gametype 13) has been introduced in OpenArena gamecode AFTER OA 0.8.8 was released. Until a new version of OA is released, POS can already be tested by using "OAX test mod" (see https://openarena.fandom.com/wiki/OAX for info). POS is a team-less mode where you have to find the flag and hold it as long as possible. I made the flag randomly spawn at one of the six Domination points; it changes spawn point at every match.
+"(E)": Possession (g_gametype 13) has been introduced in OpenArena gamecode AFTER OA 0.8.8 was released. Until a new version of OA is released, POS can already be tested by using "OAX test mod" (see https://openarena.fandom.com/wiki/OAX for info). POS is a team-less mode where you have to find the flag and hold it as long as possible. I made the flag randomly spawn at one of the six Domination points (at least, with the flag spawn rules available at the time of this writing); it changes spawn point at every match.
 
 Items:
 1x BFG (1 ammo box)
 1x Chaingun (3 ammo boxes)
 2x Grappling hook
 2x Grenade launcher (4 ammo boxes)
-2x Lighning gun (5 ammo boxes)
-1x Nailgun (4 ammo boxes)
+2x Lightning gun (5 ammo boxes)
+1x Nailgun (5 ammo boxes)
 2x Plasma gun (5 ammo boxes)
-1x Proximity mines launcher (2 ammo boxes)
+1x Proximity mines launcher (3 ammo boxes)
 1x Railgun (2 ammo boxes)
 3x Rocket launcher (7 ammo boxes)
 5x Shotgun (7 ammo boxes)
@@ -238,8 +238,8 @@ And thanks to YOU for reading all this stuff! :-)
 *** 9 - Links ***
 
 OpenArena Official site: http://www.openarena.ws
-Openarena forum: http://www.openarena.ws/board
 OpenArena Discord: https://discord.gg/n3dTmzM
+Openarena forum: http://www.openarena.ws/board
 OpenArena wiki: http://openarena.fandom.com
 OpenArena Gamer's manual: http://openarena.fandom.com/wiki/Manual
 OpenArena Community Mappack: http://openarena.fandom.com/wiki/OACMP
