@@ -70,7 +70,7 @@ jangroothuijse - mapping, textures.
 pelya - Test server, bugfixing.
 Moixie - Mapping.
 fromhell - Detail textures.
-The above and everyone else who cared at the OA forums and OA Discord - Testing.
+The above and everyone else who cared at the OA forums, OA Discord and OACMPVol1 github (such as adriano, G One, Peter Silie, PsYthe, Suicizer, sago007, Dancar, CGB01, GrosBedo, zeroth, Graion Dilach, Bishop-333) - Testing.
 Yves "evillair" Allaire - evil* textures. [nicked from Nexuiz]
 Simon "sock" O'Callaghan - egyptsoc* textures. [nicked from Nexuiz, permission is in the "docs" folder]
 
