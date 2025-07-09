@@ -254,9 +254,10 @@ I'll reward your patience by telling you that OACMPDM10 version 1.1 shows a secr
 *** 10 - Links ***
 
 OpenArena Official site: http://www.openarena.ws
+OpenArena Official Auxiliary site: https://lei-lei.neocities.org/openarena
 OpenArena Discord: https://discord.gg/n3dTmzM
 Openarena forum: http://www.openarena.ws/board
-OpenArena wiki: http://openarena.fandom.com
+OpenArena Unofficial wiki: http://openarena.fandom.com
 OpenArena Gamer's manual: http://openarena.fandom.com/wiki/Manual
 OpenArena Community Mappack: http://openarena.fandom.com/wiki/OACMP
 
