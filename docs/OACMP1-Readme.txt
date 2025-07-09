@@ -92,7 +92,7 @@ The "mod" has been designed for OpenArena 0.8.8, and further OA versions may not
 == TROUBLESHOOTING ==
 Before reporting a problem, check if you have additional packages in your game paths. More often than not, most of the common problems have to do with third-party packages (texture compatibility packs or other maps, for example) interfering with the pack or the game's assets. Moving those extra .pk3 files to another place will do the trick.
 
-You can contact OACMP Team on OpenArena Discord https://discord.gg/n3dTmzM or OpenArena forums http://www.openarena.ws/board
+You can contact OACMP Team on OpenArena Discord https://discord.gg/n3dTmzM or OACMP Vol 1 Github https://github.com/NeonKnightOA/oacmpvol1/issues or OpenArena forums http://www.openarena.ws/board
 
 == LICENSE ==
 This mappack is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
