@@ -5,7 +5,7 @@ OpenArena Community Mappack Volume 1 (Version 4)
 
 == OVERVIEW ==
 OpenArena Community Mappack (also called OACMP) is a mappack containing GPL'd maps made by the community itself. The idea is to give GPL servers something else to play aside of the official maps and the already GPLv2'd maps.
-More info about OACMP: http://openarena.fandom.com/wiki/OACMP
+More info about OACMP on the unofficial OpenArena wiki: http://openarena.fandom.com/wiki/OACMP
 Infos and download links for OACMP Volume 1: http://openarena.fandom.com/wiki/OACMP/Volume_1
 
 == HISTORY ==
